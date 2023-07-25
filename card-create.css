@@ -1,0 +1,59 @@
+#container-div{
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap; /* ai box er moddhe joto card thakbe se guli browser soto boro korle
+     ta sundor vabe dekhabe. ebong ai page a joto khushi toto card use korle siriale card guli bose jabe */
+    background-color: blueviolet;
+    padding: 20px 0;
+    justify-content: center; /* ai box er moddhe joto card thakbe se guli centr a rkhar jonne */
+    align-items: center;  /* ai box er moddhe joto card thakbe se guli centr a rkhar jonne */
+
+
+}
+
+
+
+.card-body{
+
+    width: 300px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 4px white;
+    padding: 5px;
+    margin: 10px;
+}
+/*------------box shadow valo vabe bujhar jonne---*/
+.card-body:hover{
+
+    box-shadow: 10px 15px 30px;
+}
+/*------------box shadow valo vabe bujhar jonne---*/
+
+.img1{
+
+    width:100%;
+
+}
+
+.card-Box{
+
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.title-div{
+
+    text-align: center;
+    font-size: 2rem;
+    color:fuchsia;
+    text-shadow: 1px 4px 8px red;
+    
+}
+
+.descreption-div{
+
+    text-align: justify;
+    line-height: 1.5;
+    color: green;
+    padding: 5px;
+}
